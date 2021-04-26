@@ -1,4 +1,7 @@
 #Get all VNETs
+#To select sybscription Select-AzSubscription -SubscriptionName
+
+
 $AZVNETs = Get-AzVirtualNetwork
 
 ForEach ($VNET in $AZVNETs) {
